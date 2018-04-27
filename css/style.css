@@ -71,7 +71,7 @@ textarea {
     MAIN
 \*------------------------------------*/
 html {
-    background-color: #f6f9f9;
+
     color: #95a4a9;
     font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -139,42 +139,6 @@ body {
             }
 
 
-/*------------------------------------*\
-    Video BG rev2
-\*------------------------------------*/
-		.background-wrap {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -100;
-}
-
-		.background-wrap-vid {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: auto;
-    height: auto;
-    min-width: 100%;
-    min-height: 100%;
-    -webkit-transform: translate(-50%, -50%);
-       -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-	    transform: translate(-50%, -50%);
-}
-		
-@media (max-width: 767px) {
-  .background-wrap {
-    background: url('./images/bg.jpg') center center / cover no-repeat;
-  }
-  
-    .background-wrap-vid {
-    display: none;
-  }
-}	
 
 
 /*------------------------------------*\
@@ -330,7 +294,41 @@ Copyright (c) 2012 Dan Eden
 }
 
 
+/* Video BG Rev 2 */
+		
+		.background-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
 
+		.background-wrap-vid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+}
+		
+@media (max-width: 767px) {
+  .background-wrap {
+    background: url('./images/bg.jpg') center center / cover no-repeat;
+  }
+  
+    .background-wrap-vid {
+    display: none;
+  }
+}		
 
 
 /*------------------------------------*\
