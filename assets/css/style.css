@@ -108,37 +108,37 @@ body {
             text-indent: -9999px;
         }
             .twitter {
-                background-image: url(../img/twitter.png);
+                background-image: url(../../assets/img//twitter.png);
                 width: 20px;
                 height: 17px;
             }
             .facebook {
-                background-image: url(../img/facebook.png);
+                background-image: url(../../assets/img//facebook.png);
                 width: 10px;
                 height: 19px;
             }
             .linkedin {
-                background-image: url(../img/linkedin.png);
+                background-image: url(../../assets/img//linkedin.png);
                 width: 21px;
                 height: 19px;
             }
             .googleplus {
-                background-image: url(../img/googleplus.png);
+                background-image: url(../../assets/img//googleplus.png);
                 width: 21px;
                 height: 19px;
             }
             .dribbble {
-                background-image: url(../img/dribbble.png);
+                background-image: url(../../assets/img//dribbble.png);
                 width: 21px;
                 height: 19px;
             }
             .instagram {
-                background-image: url(../img/instagram.png);
+                background-image: url(../../assets/img//instagram.png);
                 width: 20px;
                 height: 19px;
             }
             .flickr {
-                background-image: url(../img/flickr.png);
+                background-image: url(../../assets/img//flickr.png);
                 width: 20px;
                 height: 9px;
             }
@@ -150,11 +150,11 @@ body {
    $TYPOGRAPHY
 \*------------------------------------*/
 p,
-ul, ol, dl,
+ul, ol, dl, span
 .title {
     margin-bottom: 20px;
 }
-p {
+p, span {
     font-weight: bold;
 }
 ul, ol, dl {
@@ -195,7 +195,6 @@ a img:hover,
 /*
 Animate.css - http://daneden.me/animate
 LICENSED UNDER THE  MIT LICENSE (MIT)
-
 Copyright (c) 2012 Dan Eden
 */
 .animated {
@@ -299,7 +298,9 @@ Copyright (c) 2012 Dan Eden
 }
 
 
-/* Video BG Rev 2 */
+/*------------------------------------*\
+    Video BG Rev 2
+\*------------------------------------*/
 		
 		.background-wrap {
     position: fixed;
