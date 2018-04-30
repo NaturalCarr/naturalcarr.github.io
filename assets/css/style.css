@@ -173,6 +173,10 @@ a:hover, a:focus {
     transition: color 0.2s ease;
 }
 
+.bio {
+	color: white;
+	font-weight: normal;
+}
 
 
 
