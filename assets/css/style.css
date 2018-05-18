@@ -108,39 +108,44 @@ body {
             text-indent: -9999px;
         }
             .twitter {
-                background-image: url(../../assets/img//twitter.png);
+                background-image: url(../../assets/img/twitter.png);
                 width: 20px;
                 height: 17px;
             }
             .facebook {
-                background-image: url(../../assets/img//facebook.png);
+                background-image: url(../../assets/img/facebook.png);
                 width: 10px;
                 height: 19px;
             }
             .linkedin {
-                background-image: url(../../assets/img//linkedin.png);
+                background-image: url(../../assets/img/linkedin.png);
                 width: 21px;
                 height: 19px;
             }
             .googleplus {
-                background-image: url(../../assets/img//googleplus.png);
+                background-image: url(../../assets/img/googleplus.png);
                 width: 21px;
                 height: 19px;
             }
             .dribbble {
-                background-image: url(../../assets/img//dribbble.png);
+                background-image: url(../../assets/img/dribbble.png);
                 width: 21px;
                 height: 19px;
             }
             .instagram {
-                background-image: url(../../assets/img//instagram.png);
+                background-image: url(../../assets/img/instagram.png);
                 width: 20px;
                 height: 19px;
             }
             .flickr {
-                background-image: url(../../assets/img//flickr.png);
+                background-image: url(../../assets/img/flickr.png);
                 width: 20px;
-                height: 9px;
+                height: 19px;
+            }
+            .github {
+                background-image: url(../../assets/img/github.png);
+                width: 20px;
+                height: 19px;
             }
 
 
